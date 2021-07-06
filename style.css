@@ -22,6 +22,9 @@ p{
 a{
     text-decoration: none;
 }
+ul{
+    list-style-type: none;
+}
 .orange{
     color: orange;
 }
@@ -118,11 +121,41 @@ a{
     margin: 5px;
 }
 
+.price-list{
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+.food-category{
+    display: flex;
+}
+.food-item{
+    width: 50%;
+    margin: 0 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 30px;
+}
+.food-title{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    
+}
+.mt{
+    margin-top: 30px;
+}
+.food-item ul li{
+    line-height: 1.8;
+    text-align: left;
+}
+
+
 footer{
     margin-top: 60px;
     background-color: black;
     padding: 30px 0 50px 0;
     text-align: center;
+    
    
 }
 footer h2{
